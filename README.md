@@ -28,3 +28,10 @@ npm run build:prod
 
 ### extract-text-webpack-plugin
 把js中import的css提取出来，不能提取@import，只能提取import
+
+### koa-webpack
+封装了webpack-dev-middleware和webpack-hot-client两个插件
+
+[wepback-hot-middleware与webpack-hot-client区别](https://github.com/webpack-contrib/webpack-hot-client/issues/18)
+
+[参考博客](https://www.jianshu.com/p/c6859a6d4e7e)

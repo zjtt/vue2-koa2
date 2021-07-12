@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon --inspect ./app.js",
-    "build:dev": "cross-env NODE_ENV=development webpack --config build/webpack.dev.conf.js",
+    "build:staging": "cross-env NODE_ENV=development webpack --config build/webpack.dev.conf.js",
     "build:prod": "cross-env NODE_ENV=production webpack --config build/webpack.prod.conf.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
